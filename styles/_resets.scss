@@ -1,0 +1,21 @@
+@import './vars';
+
+
+*{
+    font-size: $base-sz-dk;
+    font-family: Poppins, 'Segoe Ui';
+    padding: 0; margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: $primary-color;
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 600px) {
+    *{
+        font-size: $base-sz-mb;
+    }
+}
+
