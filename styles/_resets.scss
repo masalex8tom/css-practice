@@ -1,11 +1,30 @@
 @import './vars';
 
+// FONT IMPORTS
+@font-face {
+    font-family: RobotoSlab;
+    src: url(./../assets/RobotoSlab.ttf);
+}
 
+@font-face {
+    font-family: Raleway;
+    src: url(./../assets/Raleway.ttf);
+}
+
+
+// TAG LEVEL
 *{
     font-size: $base-sz-dk;
     font-family: Poppins, 'Segoe Ui';
     padding: 0; margin: 0;
 }
+
+header{
+    background-color: $white;
+    border-bottom: 1px solid $light-gray;
+}
+
+h1,h2,h3,h4,h5,h6{font-weight: 600;text-transform: uppercase;}
 
 a{
     text-decoration: none;

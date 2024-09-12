@@ -1,8 +1,26 @@
+@font-face {
+  font-family: RobotoSlab;
+  src: url(./../assets/RobotoSlab.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(./../assets/Raleway.ttf);
+}
 * {
   font-size: 18px;
   font-family: Poppins, "Segoe Ui";
   padding: 0;
   margin: 0;
+}
+
+header {
+  background-color: #f1f7fa;
+  border-bottom: 1px solid #9fadbd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 a {
@@ -14,4 +32,65 @@ a {
   * {
     font-size: 16px;
   }
+}
+.container {
+  margin: 0 2rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-space {
+  justify-content: space-between;
+}
+
+.gap1r {
+  gap: 1rem;
+}
+
+.gap2r {
+  gap: 2rem;
+}
+
+header {
+  padding: 1rem 0 0.4rem;
+  position: sticky;
+  top: 0px;
+}
+header a {
+  color: #3a8b83;
+}
+
+main .hero {
+  padding: 2rem;
+}
+
+.item {
+  min-width: 300px;
+  max-width: 320px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border-left: 2px solid #1375ad;
+  border-end-end-radius: 0.4rem;
+  border-start-end-radius: 0.4rem;
+  background-color: #f1f7fa;
+  box-shadow: 0 4px 4px -2px #9fadbd;
+}
+
+footer {
+  padding: 2rem 0 0.8rem;
+  background-color: #3b4856;
+  color: #f1f7fa;
+}
+footer a {
+  color: #dcefec;
 }

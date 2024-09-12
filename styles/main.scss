@@ -1,4 +1,46 @@
 @import './resets';
 @import './vars';
+@import './reusables';
 
 
+// HEADER
+header{
+    padding: 1rem 0 .4rem;
+    position: sticky; top: 0px;
+
+    nav{}
+
+    a{
+        color: $accent-color;
+    }
+}
+
+// MAIN
+main{
+    .hero{
+        padding: 2rem;
+    }
+}
+
+.item{
+    min-width: 300px;
+    max-width: 320px;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem; margin-right: 1rem;
+    border-left: 2px solid $primary-color;
+    border-end-end-radius: .4rem;
+    border-start-end-radius: .4rem;
+
+    background-color: $white;
+    box-shadow: 0 4px 4px -2px $light-gray;
+}
+
+// FOOTER
+footer{
+    padding: 2rem 0 .8rem;
+    background-color: $gray;
+    color: $white;
+    a{
+        color: $light-color;
+    }
+}
